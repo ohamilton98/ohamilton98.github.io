@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.outer {
+    text-align: center;
+}
+
+.page {
+    position: relative;
+    padding-top: 40px;
+    max-width: 850px;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+}
+
+.logo_img{
+  position: flex;
+  margin-top: 10px;
+  text-align: center;
+  width:180px;
+}
+
+/* Sticky Navbar */
+.topofpage {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1000;
+    width: 100%;
+    text-align: center;
+    font-family: "Bodoni Moda", serif;
+}
+
+.topofpage ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.topofpage ul li {
+    display: inline;
+}
+
+.topofpage ul li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topofpage ul li a:hover {
+    background-color: #fff;
+}
+
+/*Tiles*/
+
+.tile{
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:600px;
+}
+
+.tile1{
+    background-image: url("img/Latest.jpg");
+}
+
+.tile2{
+    background-image: url("img/Business.jpg");
+}
+
+.tile3{
+    background-image: url("img/Sports.jpg");
+}
+
+.tile4{
+    background-image: url("img/Politics.jpg");
+}
+
+.tile5{
+    background-image: url("img/Lifestyle.jpg");
+}
+
+.tile6{
+    background-image: url("img/Health.jpg");
+}
+
+.tilemenu{
+    background-color: #fff;
+    width:200px;
+    padding:20px;
+    font-family: "Bodoni Moda", serif;
+    font-size:24px;
+    font-weight:800;
+    text-align:center;
+
+}
+
