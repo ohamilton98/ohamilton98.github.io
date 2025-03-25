@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: "Bodoni Moda", serif;
+    color:black;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+}
+
+.outer{
+    text-align: center;
+}
+
+.page{
+    max-width:1200px;
+    width:100%;
+    display:inline-block;
+}
+
+
+
+/* HERO IMAGE */
+.hero_content{
+    font-size:17px;
+    text-align: center;
+    box-sizing:border-box;
+}
+.hero_text_headline{
+    font-weight: bold;
+    color: #9aba85;
+    font-size: 23px;
+    margin:15px;
+}
+
+.hero_content img{  width:100%;
+}
+
+.hero_content:hover img{
+   animation-fill-mode: forwards;
+   animation-name: change;
+   animation-duration: .5s;
+   animation-timing-function: ease-out;
+}
+
+
+
+/* Animation */
+
+@keyframes change{
+    from {transform:scale(1,1);}
+    to {transform:scale(1.2,1.2);}
+}
+
+ /* transform: rotate(15deg) scale(2,2); */
