@@ -1,0 +1,214 @@
+body{
+	margin:0;
+	padding:0;
+   background-color: white;
+   font-size: 40px;
+   font-family: sans-serif;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+
+
+
+.outer{
+  text-align: center;
+}
+
+.page{
+	position:relative;
+	margin-top:0px;
+	background-color: #FFF;
+   max-width:1200px;
+   width:100%;
+  height:100%;
+  display: inline-block;
+   text-align: left;
+   height:98vh;
+}
+
+/* animation 1 */
+
+.a_box{
+   text-align: center;
+   font-size:20px;
+   color:#FFF;
+   background-color: orange;
+   padding:20px;
+   width:200px;
+   height:200px;
+  border-radius:50px;
+
+   box-sizing: border-box;
+   margin:50px;
+   display: inline-block;
+
+   outline: 1px solid transparent;
+
+
+   animation-delay: 2s;
+   animation-fill-mode: forwards;
+   animation-name: aboxchange;
+   animation-duration: 5s;
+   animation-timing-function: ease-out;
+
+
+
+
+}
+
+
+@keyframes aboxchange{
+  
+  0% {
+    background-color: orange;
+    border-radius: 50px;
+  }
+  
+  50% {
+    background-color: green;
+    border-radius: 0px;
+    transform: translate(200px, 0px) scale(1.5,1.5);
+  
+ 
+  }
+  100% {
+    background-color:blue;
+    border-radius: 100px;
+    
+  }
+
+}
+
+
+
+
+
+
+
+/* animation 2 */
+
+.b_box{
+   text-align: center;
+   font-size:20px;
+   color:#FFF;
+   background-color: palevioletred;
+   padding:20px;
+   width:200px;
+   height:200px;
+  border-radius:100px;
+
+   box-sizing: border-box;
+   margin:50px;
+   display: inline-block;
+
+   outline: 1px solid transparent;
+
+
+   animation-delay: 2s;
+   animation-fill-mode: forwards;
+   animation-name: bboxchange;
+   animation-duration: 5s;
+   animation-timing-function: ease-out;
+
+
+
+
+}
+
+
+@keyframes bboxchange{
+  
+  0% {
+    background-color: palevioletred;
+    border-radius: 100px;
+    transform: rotate(45deg);
+  }
+  
+  25% {
+    background-color: orangered;
+    border-radius: 75px;
+    transform: rotate(90deg);
+  
+ 
+  }
+  50% {
+    background-color:purple;
+    border-radius: 50px;
+    transform: rotate(180deg);
+    
+  }
+
+  100% {
+    background-color:blue;
+    border-radius: 25px;
+    transform: rotate(360deg);
+    
+  }
+
+}
+
+/* animation 3 */
+
+.c_box{
+   text-align: center;
+   font-size:20px;
+   color:#FFF;
+   background-color: #b6d7a8;
+   padding:20px;
+   width:200px;
+   height:200px;
+  border-radius:0px;
+
+   box-sizing: border-box;
+   margin:50px;
+   display: inline-block;
+
+   outline: 1px solid transparent;
+
+
+   animation-delay: 2s;
+   animation-fill-mode: forwards;
+   animation-name: cboxchange;
+   animation-duration: 5s;
+   animation-timing-function: ease-out;
+
+
+
+
+}
+
+
+@keyframes cboxchange{
+  
+  0% {
+    background-color: #b6d7a8;
+    border-radius: 0px;
+    transform: translateX(0px) scale(1);
+  }
+  
+  25% {
+    background-color: #76a5af;
+    border-radius: 100px;
+    transform: translateX(100px) scale(1);
+  
+ 
+  }
+  50% {
+    background-color:#e69138;
+    border-radius: 100px;
+    transform: translateX(0px) scale(1);
+    
+  }
+
+  100% {
+    background-color:blue;
+    border-radius: 0px;
+    transform: translateX(-100px) scale(1);
+    
+  }
+
+}
